@@ -1076,9 +1076,16 @@ a {
     }
 
     .boxes {
-        padding-right: 3.5rem;
+        padding-right: 2.5rem;
     }
 
+    #info1,
+    #info2,
+    #info3 {
+        border-right: none;
+        padding-right: 2.5rem;
+    }
+    
     .helper1 {
         font-size: 1rem;
         line-height: 1.5rem;
