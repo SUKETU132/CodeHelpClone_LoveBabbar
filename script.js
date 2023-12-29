@@ -231,5 +231,23 @@ function Active_Hambar() {
     });
 }
 Active_Hambar();
+function Js_effect() {
+    ScrollReveal().reveal(".main", {
+        easing: "cubic-bezier(0.5, 0, 0, 1)", // Specify your desired cubic-bezier values
+    });
 
+    ScrollReveal().reveal(".container2", { easing: "ease-in" });
+    ScrollReveal().reveal(".container3", { easing: "ease-in" });
+    ScrollReveal().reveal(".sub-container4", { easing: "ease-in" });
+    ScrollReveal().reveal(".con2", { easing: "ease-in" });
+    ScrollReveal().reveal(".helper3", { easing: "ease-in" });
+    ScrollReveal().reveal(".big-box", { easing: "ease-in" });
+    ScrollReveal().reveal(".slider ", { easing: "ease-in" });
+    ScrollReveal().reveal(".end-section ", { easing: "ease-in" });
+    ScrollReveal().reveal(".end ", { easing: "ease-in" });
+    ScrollReveal().reveal(".course ", { easing: "ease-in" });
+    ScrollReveal().reveal(".instructor ", { easing: "ease-in" });
+}
+
+Js_effect();
 
