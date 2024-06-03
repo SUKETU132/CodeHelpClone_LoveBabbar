@@ -70,11 +70,11 @@ function linked_data() {
     });
 
     course1.addEventListener('click', () => {
-        window.open('https://www.thecodehelp.in/course/low-level-design', '_blank');
+        window.open('https://www.codehelp.in/course/low-level-design', '_blank');
     });
 
     course2.addEventListener('click', () => {
-        window.open('https://www.thecodehelp.in/course/dsa-supreme-2.0', '_blank');
+        window.open('https://www.codehelp.in/course/dsa-supreme-3.0', '_blank');
     });
 
     op1.addEventListener('click', () => {
